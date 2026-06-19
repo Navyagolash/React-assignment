@@ -8,7 +8,6 @@ function App() {
       .then((response) => response.json())
       .then((data) => setUsers(data));
   }, []);
-
   return (
     <div>
       <h1>User List</h1>
