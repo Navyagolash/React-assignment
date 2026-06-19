@@ -22,7 +22,6 @@ function App() {
             <th>Phone</th>
           </tr>
         </thead>
-
         <tbody>
           {users.map((user) => (
             <tr key={user.id}>
